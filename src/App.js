@@ -12,6 +12,7 @@ function App() {
           <Route exact path="/" element={<Places />} />
           <Route exact path="/place/:id" element={<Place />} />
           <Route exact path="*" element={<NoMatch />} />
+          
         </Routes>
       </Router>
     </div>
